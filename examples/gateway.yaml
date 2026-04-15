@@ -1,0 +1,25 @@
+# Example gateway configuration
+gateway:
+  name: my-gateway
+  port: 8080
+
+routes:
+  - name: search-agent
+    upstream:
+      protocol: a2a
+      url: http://localhost:9000
+    expose_as:
+      - mcp
+      - rest
+      - openai
+    description: "Search agent that finds relevant documents"
+
+  - name: calculator
+    upstream:
+      protocol: rest
+      url: http://localhost:3000/calculate
+      method: POST
+    expose_as:
+      - a2a
+      - mcp
+    description: "Simple calculator service"
