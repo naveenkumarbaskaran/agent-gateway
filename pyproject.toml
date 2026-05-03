@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "agent-gateway"
+name = "agentic-gateway"
 version = "0.1.0"
 description = "Universal agent protocol gateway — translate between A2A, MCP, OpenAI Assistants, and REST in one config file."
 readme = "README.md"
