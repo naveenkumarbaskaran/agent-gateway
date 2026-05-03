@@ -5,7 +5,7 @@ from agent_gateway.config import GatewayConfig, RouteConfig, UpstreamConfig
 from agent_gateway.translator import (
     A2ATranslator, MCPTranslator, OpenAITranslator, RESTTranslator, get_translator,
 )
-from agent_gateway.models import AgentRequest, AgentResponse
+from agent_gateway.models import AgentResponse
 from agent_gateway.gateway import Gateway
 
 

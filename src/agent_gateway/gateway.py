@@ -57,7 +57,6 @@ class Gateway:
     ) -> AgentResponse:
         """Forward request to the upstream agent in its native protocol."""
         upstream = route.upstream
-        target_translator = get_translator(upstream.protocol)
 
         if upstream.protocol == "rest":
             return await self._forward_rest(route, request)
