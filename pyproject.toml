@@ -10,7 +10,7 @@ readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"
 authors = [
-    { name = "Naveen Kumar Baskaran", email = "naveenkumarbaskaran@outlook.com" },
+    { name = "Naveen Kumar Baskaran", email = "naveenkb142@gmail.com" },
 ]
 keywords = [
     "agent", "gateway", "a2a", "mcp", "openai", "protocol",
