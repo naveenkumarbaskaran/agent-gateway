@@ -186,6 +186,16 @@ result = await gateway.translate(
 
 agent-gateway understands the **semantics** of each protocol — agent cards, tool schemas, function calling, streaming — and translates them correctly.
 
+## Contributing
+
+```bash
+git clone https://github.com/naveenkumarbaskaran/agent-gateway.git
+cd agent-gateway
+python -m venv .venv && source .venv/bin/activate
+pip install -e ".[dev]"
+pytest
+```
+
 ## License
 
 MIT
