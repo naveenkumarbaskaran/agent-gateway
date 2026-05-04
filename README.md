@@ -11,6 +11,16 @@
 pip install agent-gateway
 ```
 
+## 🎬 Demo
+
+<p align="center">
+  <img src="assets/demo.gif" alt="agent-gateway demo — unified protocol routing for A2A, MCP, OpenAI, REST" width="700">
+  <br>
+  <em>Starting the gateway, routing requests across 4 protocols, and viewing live metrics</em>
+</p>
+
+---
+
 ## The Problem
 
 The AI agent ecosystem is fragmented:
