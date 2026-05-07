@@ -1,14 +1,14 @@
 # agent-gateway
 
-[![PyPI version](https://img.shields.io/pypi/v/agent-gateway.svg)](https://pypi.org/project/agent-gateway/)
-[![Python](https://img.shields.io/pypi/pyversions/agent-gateway.svg)](https://pypi.org/project/agent-gateway/)
+[![PyPI version](https://img.shields.io/pypi/v/agentic-gateway.svg)](https://pypi.org/project/agentic-gateway/)
+[![Python](https://img.shields.io/pypi/pyversions/agentic-gateway.svg)](https://pypi.org/project/agentic-gateway/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tests](https://github.com/naveenkumarbaskaran/agent-gateway/actions/workflows/ci.yml/badge.svg)](https://github.com/naveenkumarbaskaran/agent-gateway/actions)
 
 **One gateway. Every agent protocol.** Route requests between A2A, MCP, OpenAI Assistants, and plain REST — with a single YAML config.
 
 ```
-pip install agent-gateway
+pip install agentic-gateway
 ```
 
 ## 🎬 Demo
